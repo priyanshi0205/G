@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css" integrity="sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo">
+        <h1>GLOBAL CURRENCY CONVERTER</h1>
+    </header>
+    <div class="container">
+        <h1>CONVERT HERE</h1>
+        <form>
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input value="1" type="text">
+            </div>
+            <div class="dropDown">
+                <div class="from">
+                    <p>From</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/shiny/64.png">
+                        <select name="From">
+                            <option value="INR">INR</option>
+                            <option value="USD" selected>USD</option>
+                            <option value="AUD">AUD</option>
+                            <option value="EUR">EUR</option>
+                            </select>
+                    </div>
+                </div>
+                <i class="fa-solid fa-right-left"></i>
+                <div class="To">
+                    <p>To</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/IN/shiny/64.png">
+                        <select name="To">
+                            <option value="INR" selected>INR</option>
+                            <option value="USD">USD</option>
+                            <option value="AUD">AUD</option>
+                            <option value="EUR">EUR</option>
+                            </select>
+                    </div>
+                </div>
+            </div>
+            <div class="msg">
+                1 USD = 83 INR
+            </div>
+            <button> CONVERT</button>
+            
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Currency Converter .  All rights reserved.</p>
+        <p>By Priyanshi Khataniya</p>
+    </footer>
+    <script src="currencyCodes.js"></script>
+    <script src="script.js"></script>
+    <footer></footer>
+</body>
+</html>

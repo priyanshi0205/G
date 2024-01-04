@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:150px;
+    position:relative;
+    background-image: url("Currency_img2.png");
+   
+    background-size:cover;
+    font-family: Gill Sans MT;
+    
+}
+header{
+    display: flex;
+    background-color: rgba(149, 50, 17, 0.656);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+header img {
+    height: 100px;
+    margin-right: 10px;
+}
+footer {
+  
+    background-color: rgba(129, 43, 15, 0.837);
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    font-size: 4px;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 3rem;
+    background-color: rgba(255, 77, 18, 0.178);
+    text-align: left;
+    padding:3rem;
+    border-radius: 0.7rem;
+    height:22rem;
+    width:18rem;
+    border: 1px solid rgba(161, 134, 23, 0.497) ;
+}
+.container h1{
+  margin-left:0;
+}
+.container p,h1{
+    color: white;
+}
+form{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    margin-left:0rem;
+}
+form select,input,button{
+    width:100%;
+    border: none;
+    outline: none;
+    background-color: #f3e6bc;
+    border-radius: 0.5rem;
+   
+}
+
+form input{
+    font-size: 1rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+}
+.dropDown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.8rem;
+}
+.dropDown i{
+    font-size: 1.3rem;
+    margin-top: 1.4rem;
+}
+.select-container img{
+max-width: 2rem;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    border-radius: 0.5rem;
+    background-color: #f3e6bc;
+    border: 1px solid rgba(161, 134, 23, 0.497) ;
+    padding-left:0.4rem;
+}
+p{
+    font-size: 1rem;
+}
+.select-container select{
+    font-size: 1rem;
+}
+.msg{
+    
+    margin-top:2rem;
+    margin-bottom: 2rem;
+    background-color: #f3e6bc;
+    border: 1px solid rgba(161, 134, 23, 0.497) ;
+    height: 3rem;
+    padding: 1rem 0 0 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+form button{
+    height:2.5rem;
+    border: 1px solid rgba(161, 134, 23, 0.497) ;
+    font-size: 1rem;
+    cursor:pointer;
+}
+button:hover{
+    background-color:  #956b1197;
+}
